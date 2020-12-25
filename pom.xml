@@ -19,6 +19,7 @@
         <module>xunfeng-swagger</module>
         <module>xunfeng-shiro-jwt</module>
         <module>xunfeng-springSecurtity</module>
+        <module>xunfeng-fileUpload</module>
     </modules>
 
 
