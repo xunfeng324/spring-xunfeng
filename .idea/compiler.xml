@@ -7,17 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xunfeng-springSecurtity" />
-        <module name="xunfeng-shiro-jwt" />
-        <module name="xunfeng-swagger" />
-        <module name="xunfeng-fileUpload" />
         <module name="xunfeng-java-file" />
+        <module name="xunfeng-shiro-jwt" />
+        <module name="xunfeng-redis" />
+        <module name="xunfeng-swagger" />
+        <module name="xunfeng-springSecurtity" />
+        <module name="xunfeng-fileUpload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="xunfeng-fileUpload" target="1.8" />
       <module name="xunfeng-java-file" target="1.8" />
       <module name="xunfeng-parent" target="1.8" />
+      <module name="xunfeng-redis" target="1.8" />
       <module name="xunfeng-shiro-jwt" target="1.8" />
       <module name="xunfeng-springSecurtity" target="1.8" />
       <module name="xunfeng-swagger" target="1.8" />
@@ -27,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="xunfeng-fileUpload" options="-parameters" />
       <module name="xunfeng-java-file" options="-parameters" />
+      <module name="xunfeng-redis" options="-parameters" />
       <module name="xunfeng-shiro-jwt" options="-parameters" />
       <module name="xunfeng-springSecurtity" options="-parameters" />
       <module name="xunfeng-swagger" options="-parameters" />

@@ -21,6 +21,7 @@
         <module>xunfeng-springSecurtity</module>
         <module>xunfeng-fileUpload</module>
         <module>xunfeng-java-file</module>
+        <module>xunfeng-redis</module>
     </modules>
 
 
