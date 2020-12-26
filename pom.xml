@@ -20,6 +20,7 @@
         <module>xunfeng-shiro-jwt</module>
         <module>xunfeng-springSecurtity</module>
         <module>xunfeng-fileUpload</module>
+        <module>xunfeng-java-file</module>
     </modules>
 
 

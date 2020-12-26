@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xunfeng-springSecurtity" />
+        <module name="xunfeng-shiro-jwt" />
+        <module name="xunfeng-swagger" />
+        <module name="xunfeng-fileUpload" />
+        <module name="xunfeng-java-file" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xunfeng-fileUpload" target="1.8" />
+      <module name="xunfeng-java-file" target="1.8" />
+      <module name="xunfeng-parent" target="1.8" />
+      <module name="xunfeng-shiro-jwt" target="1.8" />
+      <module name="xunfeng-springSecurtity" target="1.8" />
+      <module name="xunfeng-swagger" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xunfeng-fileUpload" options="-parameters" />
+      <module name="xunfeng-java-file" options="-parameters" />
+      <module name="xunfeng-shiro-jwt" options="-parameters" />
+      <module name="xunfeng-springSecurtity" options="-parameters" />
+      <module name="xunfeng-swagger" options="-parameters" />
+    </option>
+  </component>
+</project>

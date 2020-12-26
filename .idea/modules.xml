@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-fileUpload/xunfeng-fileUpload.iml" filepath="$PROJECT_DIR$/xunfeng-fileUpload/xunfeng-fileUpload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-java-file/xunfeng-java-file.iml" filepath="$PROJECT_DIR$/xunfeng-java-file/xunfeng-java-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-parent.iml" filepath="$PROJECT_DIR$/xunfeng-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-shiro-jwt/xunfeng-shiro-jwt.iml" filepath="$PROJECT_DIR$/xunfeng-shiro-jwt/xunfeng-shiro-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-springSecurtity/xunfeng-springSecurtity.iml" filepath="$PROJECT_DIR$/xunfeng-springSecurtity/xunfeng-springSecurtity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-swagger/xunfeng-swagger.iml" filepath="$PROJECT_DIR$/xunfeng-swagger/xunfeng-swagger.iml" />
+    </modules>
+  </component>
+</project>
