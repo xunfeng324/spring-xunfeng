@@ -7,6 +7,6 @@ import java.util.List;
 public class FileController1 {
     public void createFileDir(){
         List<String> strings = Files.readAllLines("D:/test1.xlsx");
-
+        System.out.println(strings);
     }
 }
