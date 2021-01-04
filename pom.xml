@@ -22,6 +22,7 @@
         <module>xunfeng-fileUpload</module>
         <module>xunfeng-java-file</module>
         <module>xunfeng-redis</module>
+        <module>xunfeng-java8</module>
     </modules>
 
 
