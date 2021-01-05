@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-public class ListAndMap {
+public class Java_ListAndMap {
 
     /**
      * Collection 接口

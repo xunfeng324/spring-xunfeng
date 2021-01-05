@@ -2,9 +2,9 @@ package xunfemg.controller;
 
 import java.util.Arrays;
 
-public class StringClasss {
+public class Java_StringClasss {
     public static void main(String[] args) {
-        StringClasss sc = new StringClasss();
+        Java_StringClasss sc = new Java_StringClasss();
         //sc.testString();
 //        sc.testString1();
 //        sc.testString2();
@@ -54,6 +54,7 @@ public class StringClasss {
         String str = "这是一个,很长,的字符串,...";
         //返回指定索引处的 char 值。
         System.out.println("返回指定索引处的 char 值:"+str.charAt(2));
+
         //把这个字符串和另一个对象比较。
         String str1 = "Strings";
         String str2 = "Strings";
@@ -65,29 +66,36 @@ public class StringClasss {
 
         result = str3.compareTo( str1 );
         System.out.println(result);
+
         //将此字符串与指定的对象比较。
         boolean re = str3.equals(str2);
         System.out.println(re);
+
         //返回指定字符在此字符串中第一次出现处的索引。如果没有这返回 -1
         int re1 = str.indexOf("长");
         int re2 = str.indexOf("长",6);
         System.out.println(re1);
         System.out.println(re2);
+
         // 返回字符串对象的规范化表示形式。
         System.out.println(str1.intern());
+
         //返回指定字符在此字符串中最后一次出现处的索引。 如果没有这返回 -1
         System.out.println("最后一次出现处的索引"+str.lastIndexOf("."));
+
         //boolean matches(String regex)
         //告知此字符串是否匹配给定的正则表达式。
         String str4 = new String("www.runoob.com");
         System.out.print("返回值 :" );
         System.out.println(str4.matches("(.*)runoob(.*)"));
+
         //String replace(char oldChar, char newChar)
         //返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所有 oldChar 得到的。
         String str5 = new String("Runoob...");
         System.out.print("返回值 :" );
         System.out.println(str5.replace(str5.charAt(str5.lastIndexOf(".")), 'T'));
         System.out.println(str5.replaceAll(".","P"));
+
         //String[] split(String regex)
         //根据给定正则表达式的匹配拆分此字符串。
         String[] a = str.split(",");
@@ -97,5 +105,54 @@ public class StringClasss {
         }*/
         System.out.println(Arrays.asList(b).toString());
         System.out.println(Arrays.asList(a).toString());
+
+        /**
+         * String substring(int beginIndex, int endIndex)
+         * 返回一个新字符串，它是此字符串的一个子字符串。
+         */
+        String a1 = str.substring(5);
+        System.out.println("substring:"+a1);
+
+        /**
+         * char[] toCharArray()
+         * 将此字符串转换为一个新的字符数组。
+         */
+        char[] a2 = str.toCharArray();
+        for (int i = 0; i < a2.length; i++) {
+            System.out.println(a2[i]);
+        }
+
+        String char1 = Arrays.toString(a2);
+        System.out.println("char1:"+char1);
+
+
+        /**
+         * String toLowerCase()
+         * 使用默认语言环境的规则将此 String 中的所有字符都转换为小写。
+         */
+        String aa = "ADFcdgESfasWW...SF";
+        String a3 = aa.toLowerCase();
+        System.out.println(a3);
+        /**
+         * 	String toUpperCase()
+         * 使用默认语言环境的规则将此 String 中的所有字符都转换为大写。
+         */
+        String a4 = aa.toUpperCase();
+        System.out.println(a4);
+
+        /**
+         * 	String trim()
+         * 返回字符串的副本，忽略前导空白和尾部空白。
+         */
+        String bb = " dfasd  dfaadf3df -fdsa    ";
+        String a5 = bb.trim();
+        System.out.println("忽略前导空白和尾部空白："+a5);
+        /**
+         * 	isEmpty()
+         * 判断字符串是否为空。
+         */
+
+        boolean empty = bb.isEmpty();
+        System.out.println(empty);
     }
 }
