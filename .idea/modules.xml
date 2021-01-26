@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-CKFinder/xunfeng-CKFinder.iml" filepath="$PROJECT_DIR$/xunfeng-CKFinder/xunfeng-CKFinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-fileUpload/xunfeng-fileUpload.iml" filepath="$PROJECT_DIR$/xunfeng-fileUpload/xunfeng-fileUpload.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-java-file/xunfeng-java-file.iml" filepath="$PROJECT_DIR$/xunfeng-java-file/xunfeng-java-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-java8/xunfeng-java8.iml" filepath="$PROJECT_DIR$/xunfeng-java8/xunfeng-java8.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-parent.iml" filepath="$PROJECT_DIR$/xunfeng-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xunfeng-readFile/xunfeng-readFile.iml" filepath="$PROJECT_DIR$/xunfeng-readFile/xunfeng-readFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-redis/xunfeng-redis.iml" filepath="$PROJECT_DIR$/xunfeng-redis/xunfeng-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-shiro-jwt/xunfeng-shiro-jwt.iml" filepath="$PROJECT_DIR$/xunfeng-shiro-jwt/xunfeng-shiro-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/xunfeng-springSecurtity/xunfeng-springSecurtity.iml" filepath="$PROJECT_DIR$/xunfeng-springSecurtity/xunfeng-springSecurtity.iml" />
