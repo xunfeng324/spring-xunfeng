@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * 使用线程创建 job 定时任务
+ * 使用timerTask创建 job 定时任务
  */
 public class java_timeJob_TimerTask {
     static long count = 0;

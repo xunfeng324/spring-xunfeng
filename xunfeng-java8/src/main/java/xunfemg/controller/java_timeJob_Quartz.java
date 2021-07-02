@@ -7,7 +7,7 @@ import xunfemg.service.MyJob;
 import java.util.Date;
 
 /**
- * 使用线程创建 job 定时任务
+ * 使用Quartz创建 job 定时任务
  */
 public class java_timeJob_Quartz {
     public static void main(String[] args) throws SchedulerException {
